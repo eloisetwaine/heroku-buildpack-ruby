@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+
+## [v274] - 2024-06-28
+
+- JRuby 9.3.15.0 is now available (https://github.com/heroku/heroku-buildpack-ruby/pull/1476)
+
+## [v273] - 2024-06-26
+
 - Native Gemfile.lock support for Windows Ruby users with Bundler 2.2+ (https://github.com/heroku/heroku-buildpack-ruby/pull/1469)
 
 ## [v272] - 2024-06-13
@@ -1539,7 +1546,9 @@ Bugfixes:
 * Change gem detection to use lockfile parser
 * use `$RACK_ENV` when thin is detected for rack apps
 
-[unreleased]: https://github.com/heroku/heroku-buildpack-ruby/compare/v272...main
+[unreleased]: https://github.com/heroku/heroku-buildpack-ruby/compare/v274...main
+[v274]: https://github.com/heroku/heroku-buildpack-ruby/compare/v273...v274
+[v273]: https://github.com/heroku/heroku-buildpack-ruby/compare/v272...v273
 [v272]: https://github.com/heroku/heroku-buildpack-ruby/compare/v271...v272
 [v271]: https://github.com/heroku/heroku-buildpack-ruby/compare/v270...v271
 [v271]: https://github.com/heroku/heroku-buildpack-ruby/compare/v270...v271
